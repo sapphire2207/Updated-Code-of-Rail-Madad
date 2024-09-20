@@ -1,0 +1,53 @@
+#register-heading{
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+}
+
+
+#register-container {
+    display: flex;
+    flex-direction: column;   /* Arrange items vertically */
+    justify-content: center;  /* Center items vertically */
+    align-items: center;      /* Center items horizontally */
+    height: 100vh;            /* Full height of the viewport */
+    width: 100%;
+    gap: 30px;                /* Add some spacing between elements */
+  }
+  
+  #register-image {
+    margin-bottom: 20px;      /* Space below the image */
+  }
+  
+  #register-container input {
+    padding: 12px;            /* Add padding inside the input fields */
+    width: 80%;               /* Set width to 80% of the container */
+    max-width: 400px;         /* Maximum width for larger screens */
+    font-size: 16px;          /* Input font size */
+    border-radius: 10px;      /* Rounded corners */
+    border: 1px solid #ccc;   /* Light border around input fields */
+    background-color: #F1F1F1;
+             
+  }
+  
+  #register-container button {
+    padding: 12px;
+    width: 80%;
+    max-width: 400px;
+    font-size: 16px;
+    border-radius: 14px;
+    background-color: tomato;
+    color: white;            /* Make button text white */
+    border: none;            /* Remove border from the button */
+    cursor: pointer;         /* Add a pointer cursor on hover */
+  }
+  
+  #register-container button:hover {
+    background-color: #e06c63; /* Change button color on hover */
+  }
+
+  .ion-page {
+    background-color: #fff; /* Or any color that suits your design */
+    transition: background-color 0.5s ease-in-out;
+  }
+  
