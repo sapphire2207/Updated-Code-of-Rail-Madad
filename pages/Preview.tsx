@@ -38,7 +38,9 @@ const Preview: React.FC = () => {
       <Swiper
         spaceBetween={50}
         slidesPerView={1}
-        pagination={{ clickable: true }} // Dots for each slide
+        pagination={{ clickable: true }}
+        grabCursor={true} // Enables grab cursor for mouse users
+        allowTouchMove={true} // Enables touch and mouse swiping
         modules={[Pagination]}
       >
         {slides.map((slide, index) => (
