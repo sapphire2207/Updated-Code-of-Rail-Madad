@@ -1,95 +1,96 @@
 #preview-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    background-color: #f8f8f8;
-  }
-  
-  #preview-card {
-    background-color: white;
-    border-radius: 20px;
-    padding: 20px;
-    max-width: 400px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
-  }
-  
-  #image-container {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-  }
-  
-  #illustration {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-  }
-  
-  #text-container {
-    padding: 0 20px;
-  }
-  
-  #main-title {
-    font-size: 22px;
-    font-weight: bold;
-    color: #333;
-    margin-bottom: 15px;
-    line-height: 1.4;
-  }
-  
-  #description {
-    font-size: 14px;
-    color: #666;
-    margin-bottom: 20px;
-  }
-  
-  #pagination {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-  }
-  
-  #dot {
-    height: 10px;
-    width: 10px;
-    margin: 0 5px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.3s ease;
-  }
-  
-  .active-circle {
-    background-color: #ff5722;
-  }
-  
-  #get-started-btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    margin-top: 20px;
-    background-color: #ff5722;
-    color: white;
-    border-radius: 50%;
-    /* border-radius: 50%; */
-    width: 75%;
-    /* padding: 15px; */
-   
-    --ion-color-primary: #ff5722;
-    --ion-color-primary-contrast: white;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: #f8f8f8;
+}
 
-  #getting-started-btn{
-    font-size: 16px;
-    font-weight: bold;
-    background-color: #ff5722;
-  }
+#preview-card {
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+  max-width: 400px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+#image-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#illustration {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+#text-container {
+  padding: 0 20px;
+}
+
+#main-title {
+  font-size: 22px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 15px;
+  line-height: 1.4;
+}
+
+#description {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.swiper-pagination {
+  margin-top: 10px;
+}
+
+#pagination {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#dot {
+  height: 10px;
+  width: 10px;
+  margin: 0 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.active-circle {
+  background-color: #ff5722;
+}
+
+#get-started-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 20px;
+  background-color: #ff5722;
+  color: white;
+  border-radius: 50%;
+  width: 75%;
   
-  #get-started-btn:hover {
-    background-color: #e64a19;
-  }
-  
+  --ion-color-primary: #ff5722;
+  --ion-color-primary-contrast: white;
+}
+
+#getting-started-btn {
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #ff5722;
+}
+
+#get-started-btn:hover {
+  background-color: #e64a19;
+}
